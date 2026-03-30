@@ -6,7 +6,7 @@
   },
   "bugs": {
     "email": "tomaschochola@tomaschochola.cz",
-    "url": "https://github.com/tomaschochola/tooling-TODO/issues"
+    "url": "https://github.com/tomaschochola/tooling-typescript/issues"
   },
   "contributors": [
     {
@@ -15,8 +15,11 @@
       "url": "https://github.com/tomaschochola"
     }
   ],
-  "dependencies": {},
-  "description": "@tomaschochola/tooling-TODO",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  },
+  "description": "@tomaschochola/tooling-typescript",
   "devDependencies": {
     "@tomaschochola/eslint-stack": "github:tomaschochola/eslint-stack#1.x",
     "@tomaschochola/prettier-stack": "github:tomaschochola/prettier-stack#1.x"
@@ -25,18 +28,18 @@
     "type": "github",
     "url": "https://github.com/sponsors/tomaschochola"
   },
-  "homepage": "https://github.com/tomaschochola/tooling-TODO",
+  "homepage": "https://github.com/tomaschochola/tooling-typescript",
   "keywords": [
     "tomaschochola",
     "TomasChochola",
     "Tomas Chochola",
     "Tomáš Chochola",
-    "tooling-TODO"
+    "tooling-typescript"
   ],
   "license": "CC-BY-ND-4.0",
   "main": "./src/index.js",
-  "name": "@tomaschochola/tooling-TODO",
-  "repository": "github:tomaschochola/tooling-TODO",
+  "name": "@tomaschochola/tooling-typescript",
+  "repository": "github:tomaschochola/tooling-typescript",
   "sideEffects": false,
   "type": "module"
 }
