@@ -1,5 +1,5 @@
 {
-  "extends": "@premierstacks/typescript-stack/src/browser_webpack_babel.json",
+  "extends": "@tomaschochola/tooling-typescript/src/browser_webpack_babel.json",
   "include": ["./src/**/*"],
   "compilerOptions": {
     "outDir": "./dist",

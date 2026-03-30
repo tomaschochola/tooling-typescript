@@ -1,5 +1,5 @@
 {
-  "extends": "@premierstacks/typescript-stack/src/node_webpack.json",
+  "extends": "@tomaschochola/tooling-typescript/src/node_webpack.json",
   "include": ["./src/**/*"],
   "compilerOptions": {
     "outDir": "./dist",
