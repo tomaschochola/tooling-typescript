@@ -16,7 +16,7 @@
     }
   ],
   "dependencies": {
-    "@types/node": "^25.5.0",
+    "@types/node": "^24.12.2",
     "typescript": "^6.0.2"
   },
   "description": "@tomaschochola/tooling-typescript",
@@ -37,7 +37,6 @@
     "tooling-typescript"
   ],
   "license": "CC-BY-ND-4.0",
-  "main": "./src/index.js",
   "name": "@tomaschochola/tooling-typescript",
   "repository": "github:tomaschochola/tooling-typescript",
   "sideEffects": false,

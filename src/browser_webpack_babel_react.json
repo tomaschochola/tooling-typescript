@@ -1,0 +1,6 @@
+{
+  "extends": "./browser_webpack_babel.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
