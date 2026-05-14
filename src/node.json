@@ -7,15 +7,14 @@
     "alwaysStrict": true,
     "declaration": false,
     "declarationMap": false,
+    "erasableSyntaxOnly": true,
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
     "lib": ["es2024"],
     "libReplacement": false,
-    "module": "nodenext",
+    "module": "node20",
     "moduleDetection": "force",
-    "moduleResolution": "nodenext",
     "noFallthroughCasesInSwitch": true,
     "noCheck": false,
     "noImplicitAny": true,
@@ -47,6 +46,7 @@
     "allowArbitraryExtensions": false,
     "allowImportingTsExtensions": false,
     "noEmit": false,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "noErrorTruncation": true
   }
 }

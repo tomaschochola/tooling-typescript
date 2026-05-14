@@ -1,8 +1,4 @@
 {
   "extends": "@tomaschochola/tooling-typescript/src/browser_webpack_react.json",
-  "include": ["./src/**/*"],
-  "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src"
-  }
+  "include": ["./src/**/*"]
 }
