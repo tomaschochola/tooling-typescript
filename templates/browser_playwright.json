@@ -1,0 +1,4 @@
+{
+  "extends": "@tomaschochola/tooling-typescript/src/browser_playwright.json",
+  "include": ["./tests/**/*", "./playwright.config.ts"]
+}
