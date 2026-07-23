@@ -1,7 +1,7 @@
 {
   "extends": "./browser_webpack_babel.json",
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": ["dom", "es2025"],
     "types": ["node", "@playwright/test"]
   }
 }
