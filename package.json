@@ -19,12 +19,16 @@
     "@types/node": "^24.13.3",
     "typescript": "^6.0.3"
   },
-  "description": "@tomaschochola/tooling-typescript",
+  "description": "Shared strict TypeScript configurations for browser, Node.js, Webpack, Babel, React, and Playwright.",
   "devDependencies": {
-    "@tomaschochola/tooling-eslint": "github:tomaschochola/tooling-eslint#1.x",
-    "@tomaschochola/tooling-prettier": "github:tomaschochola/tooling-prettier#1.x",
+    "@tomaschochola/tooling-eslint": "github:tomaschochola/tooling-eslint#2.x",
+    "@tomaschochola/tooling-prettier": "github:tomaschochola/tooling-prettier#2.x",
     "@tomaschochola/tooling-trimmer": "github:tomaschochola/tooling-trimmer#2.x"
   },
+  "files": [
+    "src",
+    "templates"
+  ],
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/tomaschochola"
@@ -35,12 +39,20 @@
     "TomasChochola",
     "Tomas Chochola",
     "Tomáš Chochola",
-    "tooling-typescript"
+    "compiler-options",
+    "configuration",
+    "javascript",
+    "tooling-typescript",
+    "tsconfig",
+    "typescript"
   ],
   "license": "CC-BY-ND-4.0",
   "name": "@tomaschochola/tooling-typescript",
-  "repository": "github:tomaschochola/tooling-typescript",
-  "sideEffects": false,
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaschochola/tooling-typescript.git"
+  },
   "type": "module",
   "version": "2.0.0"
 }

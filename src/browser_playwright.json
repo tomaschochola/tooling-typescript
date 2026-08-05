@@ -1,7 +1,11 @@
 {
-  "extends": "./browser_webpack_babel.json",
+  "extends": "./base.json",
   "compilerOptions": {
+    "allowArbitraryExtensions": true,
     "lib": ["dom", "es2025"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "noEmit": true,
     "types": ["node", "@playwright/test"]
   }
 }
