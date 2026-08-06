@@ -39,6 +39,7 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "es2025",
+    "types": [],
     "useDefineForClassFields": true,
     "useUnknownInCatchVariables": true,
     "verbatimModuleSyntax": true

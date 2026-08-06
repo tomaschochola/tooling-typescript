@@ -16,14 +16,14 @@
     }
   ],
   "dependencies": {
-    "@types/node": "^24.13.3",
-    "typescript": "^6.0.3"
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "@types/node": "^24.13.3"
   },
   "description": "Shared strict TypeScript configurations for browser, Node.js, Webpack, Babel, React, and Playwright.",
   "devDependencies": {
-    "@tomaschochola/tooling-eslint": "github:tomaschochola/tooling-eslint#2.x",
-    "@tomaschochola/tooling-prettier": "github:tomaschochola/tooling-prettier#2.x",
-    "@tomaschochola/tooling-trimmer": "github:tomaschochola/tooling-trimmer#2.x"
+    "@tomaschochola/tooling-eslint": "github:tomaschochola/tooling-eslint#main",
+    "@tomaschochola/tooling-prettier": "github:tomaschochola/tooling-prettier#main",
+    "@tomaschochola/tooling-trimmer": "github:tomaschochola/tooling-trimmer#main"
   },
   "files": [
     "src",
@@ -54,5 +54,5 @@
     "url": "git+https://github.com/tomaschochola/tooling-typescript.git"
   },
   "type": "module",
-  "version": "2.0.0"
+  "version": "0.0.0"
 }

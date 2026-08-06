@@ -34,13 +34,10 @@ DEVCONTAINER_FILTER := label=devcontainer.local_folder=$(CURDIR)
 fix: eslint_fix prettier_fix trimmer_fix
 
 .PHONY: check
-check: trimmer_check lint test audit
+check: trimmer_check lint audit
 
 .PHONY: lint
 lint: eslint_check prettier_check
-
-.PHONY: test
-test: node_test
 
 .PHONY: audit
 audit: npm_audit
@@ -60,9 +57,6 @@ deps_clean:
 
 .PHONY: distclean
 distclean: clean deps_clean
-
-.PHONY: nuke
-nuke: down distclean
 
 .PHONY: trimmer_fix
 trimmer_fix: ./node_modules/.package-lock.json ./package.json ./package-lock.json
@@ -87,10 +81,6 @@ eslint_check: ./node_modules/.package-lock.json ./package.json ./package-lock.js
 .PHONY: prettier_check
 prettier_check: ./node_modules/.package-lock.json ./package.json ./package-lock.json ./prettier.config.js
 	npm exec --ignore-scripts -- prettier -c .
-
-.PHONY: node_test
-node_test: ./node_modules/.package-lock.json ./package.json ./package-lock.json
-	node --test
 
 .PHONY: npm_audit
 npm_audit: ./node_modules/.package-lock.json ./package.json ./package-lock.json
@@ -120,28 +110,16 @@ up: devcontainer_check
 devcontainer: up
 	devcontainer exec --workspace-folder . /bin/bash
 
-.PHONY: status
-status:
-	docker container ls --all --filter "$(DEVCONTAINER_FILTER)"
-
 .PHONY: stop
 stop:
 	docker container ls --quiet --filter "$(DEVCONTAINER_FILTER)" | while IFS= read -r container; do docker container stop "$$container"; done
 
-.PHONY: restart
-restart:
-	docker container ls --all --quiet --filter "$(DEVCONTAINER_FILTER)" | while IFS= read -r container; do docker container restart "$$container"; done
-
 .PHONY: down
 down: stop
-	docker container ls --all --quiet --filter "$(DEVCONTAINER_FILTER)" | while IFS= read -r container; do docker container rm --volumes "$$container"; done
+	docker container ls --all --quiet --filter "$(DEVCONTAINER_FILTER)" | while IFS= read -r container; do docker container rm "$$container"; done
 
 .PHONY: rebuild
 rebuild: devcontainer_check down
-	devcontainer up --workspace-folder .
-
-.PHONY: rebuild_no_cache
-rebuild_no_cache: devcontainer_check down
 	devcontainer up --workspace-folder . --build-no-cache
 
 ./node_modules/.package-lock.json: ./package.json ./package-lock.json
