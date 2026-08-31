@@ -1,6 +1,6 @@
 {
-  "extends": "./browser_webpack.json",
-  "compilerOptions": {
-    "jsx": "react-jsx"
-  }
+    "extends": "./browser_webpack.json",
+    "compilerOptions": {
+        "jsx": "react-jsx"
+    }
 }

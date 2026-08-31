@@ -1,4 +1,4 @@
 {
-  "extends": "@tomaschochola/tooling-typescript/src/browser_webpack_babel.json",
-  "include": ["./src/**/*"]
+    "extends": "@tomaschochola/tooling-typescript/src/browser_webpack_babel.json",
+    "include": ["./src/**/*"]
 }

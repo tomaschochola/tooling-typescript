@@ -1,12 +1,12 @@
 {
-  "extends": "./base.json",
-  "compilerOptions": {
-    "lib": ["es2025"],
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
-    "noEmit": false,
-    "noEmitOnError": true,
-    "sourceMap": true,
-    "types": ["node"]
-  }
+    "extends": "./base.json",
+    "compilerOptions": {
+        "lib": ["es2025"],
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "noEmit": false,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "types": ["node"]
+    }
 }

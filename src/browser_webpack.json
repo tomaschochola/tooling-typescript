@@ -1,11 +1,11 @@
 {
-  "extends": "./base.json",
-  "compilerOptions": {
-    "allowArbitraryExtensions": true,
-    "lib": ["dom", "es2025"],
-    "module": "preserve",
-    "moduleResolution": "bundler",
-    "noEmit": true,
-    "types": []
-  }
+    "extends": "./base.json",
+    "compilerOptions": {
+        "allowArbitraryExtensions": true,
+        "lib": ["dom", "es2025"],
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "noEmit": true,
+        "types": []
+    }
 }
