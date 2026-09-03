@@ -2,7 +2,7 @@
     "extends": "./base.json",
     "compilerOptions": {
         "allowArbitraryExtensions": true,
-        "lib": ["dom", "es2025"],
+        "lib": ["dom", "dom.iterable", "es2025"],
         "module": "preserve",
         "moduleResolution": "bundler",
         "noEmit": true,

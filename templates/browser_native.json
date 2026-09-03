@@ -1,0 +1,8 @@
+{
+    "extends": "@tomaschochola/tooling-typescript/src/browser_native.json",
+    "include": ["./src/**/*"],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src"
+    }
+}

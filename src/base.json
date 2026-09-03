@@ -16,6 +16,7 @@
         "isolatedModules": true,
         "libReplacement": false,
         "moduleDetection": "force",
+        "newLine": "lf",
         "noCheck": false,
         "noErrorTruncation": true,
         "noFallthroughCasesInSwitch": true,

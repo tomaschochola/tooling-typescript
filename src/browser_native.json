@@ -1,11 +1,11 @@
 {
     "extends": "./base.json",
     "compilerOptions": {
-        "allowArbitraryExtensions": true,
         "lib": ["dom", "dom.iterable", "es2025"],
-        "module": "preserve",
-        "moduleResolution": "bundler",
-        "noEmit": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "noEmit": false,
+        "noEmitOnError": true,
         "types": []
     }
 }
