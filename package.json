@@ -19,7 +19,7 @@
         "@typescript/native": "npm:typescript@^7.0.2",
         "@types/node": "^24.13.3"
     },
-    "description": "Shared strict TypeScript configurations for browser, Node.js, Webpack, Babel, React, and Playwright.",
+    "description": "Shared strict TypeScript configurations for native browser modules, bundlers, React, Node.js, and Playwright.",
     "devDependencies": {
         "@tomaschochola/tooling-eslint": "git+https://github.com/tomaschochola/tooling-eslint.git#main",
         "@tomaschochola/tooling-prettier": "git+https://github.com/tomaschochola/tooling-prettier.git#main",

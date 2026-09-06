@@ -1,0 +1,4 @@
+{
+    "extends": "@tomaschochola/tooling-typescript/src/node_bundler.json",
+    "include": ["./src/**/*"]
+}

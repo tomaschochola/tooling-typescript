@@ -1,5 +1,5 @@
 {
-    "extends": "./browser_webpack_babel.json",
+    "extends": "./browser_bundler.json",
     "compilerOptions": {
         "jsx": "react-jsx"
     }
