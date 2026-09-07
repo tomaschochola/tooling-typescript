@@ -1,4 +1,0 @@
-{
-    "extends": "@tomaschochola/tooling-typescript/src/browser_bundler_react.json",
-    "include": ["./src/**/*"]
-}
