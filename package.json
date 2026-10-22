@@ -39,12 +39,7 @@
         "TomasChochola",
         "Tomas Chochola",
         "Tomáš Chochola",
-        "compiler-options",
-        "configuration",
-        "javascript",
-        "tooling-typescript",
-        "tsconfig",
-        "typescript"
+        "tooling-typescript"
     ],
     "license": "CC-BY-ND-4.0",
     "name": "@tomaschochola/tooling-typescript",
