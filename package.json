@@ -17,7 +17,7 @@
     ],
     "dependencies": {
         "@typescript/native": "npm:typescript@^7.0.2",
-        "@types/node": "^24.13.3"
+        "@types/node": "^26.6.6"
     },
     "description": "Shared strict TypeScript configurations for native browser modules, bundlers, React, Node.js, and Playwright.",
     "devDependencies": {
